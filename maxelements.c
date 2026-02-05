@@ -1,10 +1,11 @@
+// max elements
 #include<stdio.h>
 int main()
 {
     int a[100],n,i,max;
     printf("enter the value of n\n");
-    scanf("%d",n);
-    printf("enter the elements in array",n);
+    scanf("%d",&n);
+    printf("enter the elements in array\n",n);
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -18,7 +19,7 @@ int main()
             max=a[i];
         }
     }
-    printf("The maximum elements is %d",max);
+    printf("The maximum element is %d",max);
     return 0;
 
 }
