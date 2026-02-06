@@ -1,4 +1,4 @@
-// sum of x +x^2/2! + x^3/3! - x^4/4! + ..........n terms
+// sum of -x +x^2/2! - x^3/3! + x^4/4! + ..........n terms
 #include <stdio.h>
 #include <math.h>
 int main()
