@@ -10,7 +10,7 @@ int main()
     {
         for(J=0;J<c;J++)
         {
-            scanf("%d", &M[i],M[J]);
+            scanf("%d", &M[i][J]);
         }
     }
     printf("The matrix of order %d*%d rowwise is \n",r,c);
@@ -19,7 +19,7 @@ int main()
 
          for(J=0;J<c;J++)
          {
-             printf("%d\t",M[i],M[J]);
+             printf("%d\t",M[i][J]);
 
          }
           printf("\n");

@@ -3,8 +3,10 @@
 #include <stdio.h>
 int main()
 {
-    int p,q,M[p][q],T[q][p],i,J;
-    printf("Enter the matrix of order p*q rowwiese\n");
+    int p,q,M[10][10],T[10][10],i,J;
+    printf("Enter the value of p and q\n");
+    scanf("%d%d",&p,&q);
+     printf("Enter the matrix of order %d*%d rowwiese\n",p,q);
     for (i=0;i<p;i++)
     {
         for (J=0;J<q;J++)
@@ -21,9 +23,9 @@ int main()
         }
     }
     printf(" The transpose of matrix is \n");
-    for(i=0;i<p;i++)
+    for(i=0;i<q;i++)
     {
-        for(J=0;J<q;J++)
+        for(J=0;J<p;J++)
         {
             printf("%d\t",T[i][J]);
         }

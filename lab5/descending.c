@@ -4,6 +4,7 @@ int main()
     int a[100],n,i,J,temp;
     printf("Enter the value of n\n");
     scanf("%d", &n);
+    printf("Enter the elements\n");
     for(i=0;i<n;i++)
     {
         scanf("%d", &a[i]);
