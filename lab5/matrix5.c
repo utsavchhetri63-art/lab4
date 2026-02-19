@@ -3,7 +3,7 @@
 int main()
 {
     int M[10][10],i,J,p,q,min;
-    printf("Enter the value of p and c\n");
+    printf("Enter the value of p and q\n");
     scanf("%d%d",&p,&q);
     printf("Enter the matrix of order %d*%d rowwies\n",p,q);
     for (i=0;i<p;i++)

@@ -14,7 +14,7 @@ int main()
             scanf("%d",&M[i][J]);
         }
     }
-  //transpose a matrix
+    
     for(i=0;i<p;i++)
     {
         for(J=0;J<q;J++)

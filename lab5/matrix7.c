@@ -25,14 +25,14 @@ int main()
            printf("Row %d sum = %d\n", i+1, rowsum);
     }
     // column sum
-    for (i=0;i<r;i++)
+    for (J=0;J<c;J++)
     {
         colsum = 0;
-        for (J=0;J<c;J++)
+        for (i=0;i<r;i++)
         {
             colsum =colsum + M[i][J];
         }
-           printf("column %d sum = %d\n", i+1, colsum);
+           printf("column %d sum = %d\n", J+1, colsum);
     }
     return 0;
 
